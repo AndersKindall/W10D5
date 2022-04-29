@@ -1,7 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-
+import { Clock } from './frontend/clock'
 
 document.addEventListener("DOMContentLoaded", () => {
-    ReactDOM.render( <Widget /> , root)
+    ReactDOM.render( <Clock/>, root)
 })
