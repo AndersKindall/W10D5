@@ -1,0 +1,12 @@
+h1 {
+    font-family: 'Water Brush', cursive;
+    font-size: 50px;
+}
+
+.clock{
+    display: flex;
+    width: 100px;
+    margin: 100px;
+    justify-content: center;
+    align-items: center;
+}

@@ -19,12 +19,9 @@ class Clock extends Component {
         this.setState({time: new Date()})
     }
 
-
-   
-
     render() {
         return (
-            <div>
+            <div class='clock'>
                 <h1>Clock</h1> 
                 <p>{this.state.time.getHours()}:{this.state.time.getMinutes()}:{this.state.time.getUTCSeconds()}</p>
             </div>
