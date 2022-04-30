@@ -12,3 +12,27 @@ h1 {
     background-color: lightblue;
     width: 600px;
 }
+
+.tab-container {
+    border: solid black 3px;
+    display: flex;
+    flex-direction: row;
+    width: 600px;
+}
+
+.tab-header {
+    border: solid black 3px;
+    border-bottom: none;
+    border-radius: 33%;
+    width: 200px;
+    text-align: center;
+    vertical-align: center;
+}
+
+.content-container {
+    border: solid black 3px;
+    width: 600px;
+    height: 300px;
+    text-align: center;
+    
+}
